@@ -1,0 +1,33 @@
+{
+  "name": "deview-2016-hello",
+  "productName": "Naver Deview 2016 Hello",
+  "version": "0.0.1",
+  "description": "Naver Deivew 2016 Demo 1",
+  "license": "MIT",
+  "repository": "user/repo",
+  "author": {
+    "name": "Scotty Kim",
+    "email": "scotty@protopie.io",
+    "url": "https://www.protopie.io"
+  },
+  "scripts": {
+    "start": "electron .",
+    "dist": "build"
+  },
+  "files": [
+    "index.js",
+    "demo.js",
+    "index.html"
+  ],
+  "devDependencies": {
+    "devtron": "^1.4.0",
+    "electron": "^1.0.1",
+    "electron-builder": "^7.14.2"
+  },
+  "build": {
+    "appId": "scotty.naverdeview",
+    "mac": {
+      "category": "io.protopie.scotty.naverdeview"
+    }
+  }
+}
